@@ -554,6 +554,11 @@ RUN if [ ${INSTALL_DUSK_DEPS} = true ]; then \
   && rm chromedriver_linux64.zip \
 ;fi
 
+#####################################
+# Famous added packagr:
+#####################################
+RUN apt-get -y install zip unzip wget
+
 #
 #--------------------------------------------------------------------------
 # Final Touch
